@@ -21,8 +21,8 @@
 
 
 <body>
-    <div id="bar"></div>
-    <py-script>
+
+<py-script>
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -35,6 +35,6 @@ fig, ax = plt.subplots()
 ax.bar(df['name'], df['price'])
 pyscript.write('bar', fig)
 
-    </py-script>
+</py-script>
 </body>
 </html>
